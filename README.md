@@ -1,7 +1,5 @@
 # skills
 
-Skills I made for work, sanitized to be open.
-
 The primary motivation for writing these skills is to deslop.
 
 Folders under `skills/` are named for the tool the skill drives, so there's
