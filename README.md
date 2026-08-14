@@ -22,6 +22,18 @@ agents you have, Codex and OpenCode included, so these work outside Claude Code 
 though that's where I wrote them. Start a new session afterwards, since agents only
 look for skills at startup.
 
+## skills/confluence/
+
+**[`concept-docs`](skills/confluence/concept-docs/)** is three skills for
+authoring and maintaining Confluence documentation clusters: the multi-page
+narrative docs you write after brainstorming a concept, with structure that
+follows each page's role rather than taste. `creating-confluence-clusters` and
+`revising-confluence-clusters` own the cluster, and both call
+`writing-confluence-pages` once per page, so take all three or none.
+
+They drive the Atlassian MCP server. Their own
+[README](skills/confluence/concept-docs/) covers how the three compose.
+
 ## skills/jira/
 
 **[`ticket-drift`](skills/jira/ticket-drift/)** finds the backlog tickets your
