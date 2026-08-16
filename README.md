@@ -2,8 +2,9 @@
 
 The primary motivation for writing these skills is to deslop.
 
-Folders under `skills/` are named for the tool the skill drives, so there's
-somewhere obvious to put the next one.
+Folders under `skills/` are named for the surface a skill reads and writes — the
+knowledge base, the work-tracking record, the codebase — rather than the tool it
+drives, so there's somewhere obvious to put the next one.
 
 ## Installing
 
@@ -17,46 +18,26 @@ That lists what's here and lets you pick. To take one directly:
 npx skills add dzakirinff/skills --skill ticket-drift
 ```
 
-[`npx skills`](https://github.com/vercel-labs/skills) installs into whichever
-agents you have, Codex and OpenCode included, so these work outside Claude Code even
-though that's where I wrote them. Start a new session afterwards, since agents only
-look for skills at startup.
+[`npx skills`](https://github.com/vercel-labs/skills) installs into whichever agents
+you have, Codex and OpenCode included. Start a new session afterwards, since agents
+only look for skills at startup.
 
-## skills/confluence/
+## What's here
 
-**[`concept-docs`](skills/confluence/concept-docs/)** is three skills for
-authoring and maintaining Confluence documentation clusters: the multi-page
-narrative docs you write after brainstorming a concept, with structure that
-follows each page's role rather than taste. `creating-confluence-clusters` and
-`revising-confluence-clusters` own the cluster, and both call
-`writing-confluence-pages` once per page, so take all three or none.
+| Skill | | Needs |
+| --- | --- | --- |
+| [`concept-docs`](skills/knowledge-base/concept-docs/) | Authors and maintains Confluence documentation clusters. Three skills; take all three or none. | Atlassian MCP server |
+| [`ticket-drift`](skills/work-tracking/ticket-drift/) | Finds the backlog tickets your finished work just invalidated, and comments on each. | [`acli`](https://developer.atlassian.com/cloud/acli/) |
+| [`weekly-recap`](skills/work-tracking/weekly-recap/) | Rebuilds last week from GitHub into a dated file, facts in tables and reasoning in prose. | [`gh`](https://cli.github.com/) |
 
-They drive the Atlassian MCP server. Their own
-[README](skills/confluence/concept-docs/) covers how the three compose.
-
-## skills/jira/
-
-**[`ticket-drift`](skills/jira/ticket-drift/)** finds the backlog tickets your
-finished work just invalidated. It leaves a comment on each explaining what moved,
-and a dated pointer on the description so that whoever picks the ticket up reads
-the comment before starting rather than after.
-
-It needs [`acli`](https://developer.atlassian.com/cloud/acli/) authenticated
-against your Jira site. It will use the Atlassian MCP server too if you have one
-connected, but doesn't need it. Its own
-[README](skills/jira/ticket-drift/) covers what it writes and what it deliberately
-leaves alone.
+Each has its own README covering what it writes and what it leaves alone.
 
 ## On the sanitizing
 
-This ran against a private Jira / Confluence instance and a private set of repos before it ran
-anywhere else, so the worked example names a project, tickets and services that
-don't exist.
-
-I changed the identifiers and nothing else. The mechanics, the measurements and the
-failure modes are what I actually observed. Where a number does real work, like a
-page size or a row count or a timing, it's the true one, because the number is
-usually the whole reason the rule exists.
+This ran against a private Jira / Confluence instance and a private set of repos
+first, so the worked example names a project, tickets and services that don't exist.
+I changed the identifiers and nothing else — where a number does real work, it's the
+true one.
 
 ## License
 
