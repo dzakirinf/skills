@@ -9,7 +9,7 @@ description: Use when auditing or revising an EXISTING Confluence concept cluste
 
 An existing cluster drifts: leaves stop linking up, an overview's index falls out of sync with the real child tree, a content page silently turns into a status board. This skill audits and repairs a cluster as **one coherent pass**, not page by page.
 
-It does **not** define what a good page looks like — that is the **REQUIRED SUB-SKILL: writing-confluence-pages**, invoked per affected page. If it is not installed, stop and install it before drafting: `npx skills add dzakirinff/skills --skill writing-confluence-pages`. This skill owns the *cluster-level* work: reconciliation, the audit, scope, approval, writing.
+It does **not** define what a good page looks like — that is the **REQUIRED SUB-SKILL: writing-confluence-pages**, invoked per affected page. If it is not installed, stop and install it before drafting: `npx skills add dzakirinf/skills --skill writing-confluence-pages`. This skill owns the *cluster-level* work: reconciliation, the audit, scope, approval, writing.
 
 ## The stance that matters
 

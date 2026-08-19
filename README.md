@@ -9,13 +9,13 @@ drives, so there's somewhere obvious to put the next one.
 ## Installing
 
 ```bash
-npx skills add dzakirinff/skills
+npx skills add dzakirinf/skills
 ```
 
 That lists what's here and lets you pick. To take one directly:
 
 ```bash
-npx skills add dzakirinff/skills --skill ticket-drift
+npx skills add dzakirinf/skills --skill ticket-drift
 ```
 
 [`npx skills`](https://github.com/vercel-labs/skills) installs into whichever agents
@@ -26,6 +26,7 @@ only look for skills at startup.
 
 | Skill | | Needs |
 | --- | --- | --- |
+| [`audit-comments`](skills/codebase/audit-comments/) | Finds the comments that tell a reader nothing the code already does, and reports them for removal. | Nothing |
 | [`concept-docs`](skills/knowledge-base/concept-docs/) | Authors and maintains Confluence documentation clusters. Three skills; take all three or none. | Atlassian MCP server |
 | [`ticket-drift`](skills/work-tracking/ticket-drift/) | Finds the backlog tickets your finished work just invalidated, and comments on each. | [`acli`](https://developer.atlassian.com/cloud/acli/) |
 | [`weekly-recap`](skills/work-tracking/weekly-recap/) | Rebuilds last week from GitHub into a dated file, facts in tables and reasoning in prose. | [`gh`](https://cli.github.com/) |

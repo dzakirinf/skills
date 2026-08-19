@@ -67,7 +67,7 @@ its role.
 ## Installing
 
 ```bash
-npx skills add dzakirinff/skills --skill creating-confluence-clusters --skill revising-confluence-clusters --skill writing-confluence-pages
+npx skills add dzakirinf/skills --skill creating-confluence-clusters --skill revising-confluence-clusters --skill writing-confluence-pages
 ```
 
 Take all three. `creating-` and `revising-` both invoke `writing-confluence-pages`

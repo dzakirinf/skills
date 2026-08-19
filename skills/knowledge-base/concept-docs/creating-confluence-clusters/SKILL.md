@@ -9,7 +9,7 @@ description: Use when turning a newly brainstormed concept or initiative into a 
 
 A genuinely new concept does not become *a page* — it becomes a **cluster**: one topic-overview page that explains the idea, plus child content pages that carry the depth. This skill is the workflow that comes *after* a brainstorm: place the concept in the information architecture, decompose it, and author each page.
 
-It does **not** define what a good page looks like — that is the **REQUIRED SUB-SKILL: writing-confluence-pages**, which this skill invokes once per page. If it is not installed, stop and install it before drafting: `npx skills add dzakirinff/skills --skill writing-confluence-pages`. This skill owns the *cluster*: placement, decomposition, link wiring, approval, creation.
+It does **not** define what a good page looks like — that is the **REQUIRED SUB-SKILL: writing-confluence-pages**, which this skill invokes once per page. If it is not installed, stop and install it before drafting: `npx skills add dzakirinf/skills --skill writing-confluence-pages`. This skill owns the *cluster*: placement, decomposition, link wiring, approval, creation.
 
 ## When to use
 

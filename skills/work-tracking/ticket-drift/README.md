@@ -17,7 +17,7 @@ different epic under someone else's name — had been quietly proposing the mech
 ## Installing
 
 ```bash
-npx skills add dzakirinff/skills --skill ticket-drift
+npx skills add dzakirinf/skills --skill ticket-drift
 ```
 
 Then start a new session. `/ticket-drift` becomes available as a command, and the
