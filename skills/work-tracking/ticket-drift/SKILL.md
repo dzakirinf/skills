@@ -1,6 +1,7 @@
 ---
 name: ticket-drift
-description: Flag drift on not-yet-done Jira tickets that finished work has made obsolete, superseded, wrong, or already-resolved — one comment plus a dated description pointer, so whoever picks the ticket up reads it before starting. Use after finishing or merging a ticket or an epic, when sweeping finished work for backlog tickets that clash with it, when vetting which ticket to pick up next, or on noticing an open ticket the work invalidated.
+description: Flag backlog Jira tickets that finished work has made obsolete, superseded, or already-resolved — a comment plus a dated description pointer.
+disable-model-invocation: true
 ---
 
 # Ticket drift

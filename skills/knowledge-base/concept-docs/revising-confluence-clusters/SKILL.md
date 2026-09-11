@@ -1,6 +1,7 @@
 ---
 name: revising-confluence-clusters
-description: Use when auditing or revising an EXISTING Confluence concept cluster — driven by reviewer comments, OR by a principles audit when there are no comments (slop accumulates silently). Covers reconciling the overview's child index against the actual descendant tree, repairing up/down/sibling links, and stripping status/ticket logs while keeping durable reference. For creating a brand-new cluster, use creating-confluence-clusters instead. Requires the writing-confluence-pages skill.
+description: Audit and revise an existing Confluence concept cluster — reviewer comments or a principles sweep, child-index reconciliation, link repair.
+disable-model-invocation: true
 ---
 
 # Revising Confluence Clusters

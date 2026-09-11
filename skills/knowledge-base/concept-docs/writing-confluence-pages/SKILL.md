@@ -1,6 +1,7 @@
 ---
 name: writing-confluence-pages
-description: Use when writing or restructuring a SINGLE Confluence page so its shape matches its role in a concept cluster — a hub/overview page, a content leaf, a page that is both, or a root category. Invoked per page by the concept-cluster create and revise skills, and usable directly on one page. NOT for choosing where a page sits in the IA or coordinating several pages — that is the cluster skills' job.
+description: Reshape a single Confluence page to its role in a concept cluster — hub, content leaf, both, or root category.
+disable-model-invocation: true
 ---
 
 # Writing Confluence Pages

@@ -1,6 +1,7 @@
 ---
 name: creating-confluence-clusters
-description: Use when turning a newly brainstormed concept or initiative into a NEW Confluence documentation cluster, placed inside a space's information architecture. For revising or auditing an existing cluster, use revising-confluence-clusters instead. NOT for a single existing component or recurring ops docs (runbooks, ADRs, postmortems) — those have their own templates/tooling. Requires the writing-confluence-pages skill.
+description: Turn a brainstormed concept into a new Confluence documentation cluster, placed in the space's information architecture.
+disable-model-invocation: true
 ---
 
 # Creating Confluence Clusters
