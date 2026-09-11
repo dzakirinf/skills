@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "author": {
+    "name": "Dzakirin Asyraff",
+    "url": "https://github.com/dzakirinf"
+  },
+  "repository": "https://github.com/dzakirinf/skills",
+  "license": "MIT",
+  "name": "prose",
+  "description": "Copyedit prose to a plain register.",
+  "skills": [
+    "./copyedit"
+  ]
+}

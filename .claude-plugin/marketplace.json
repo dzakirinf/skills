@@ -1,0 +1,40 @@
+{
+  "name": "dzakirinf",
+  "owner": {
+    "name": "Dzakirin Asyraff",
+    "url": "https://github.com/dzakirinf"
+  },
+  "description": "dzakirinf's skills, grouped by the surface they write to.",
+  "plugins": [
+    {
+      "name": "dzakirin-skills",
+      "source": "./",
+      "category": "productivity",
+      "description": "Every group in the collection, in one install."
+    },
+    {
+      "name": "work-tracking",
+      "source": "./skills/work-tracking",
+      "description": "Commit messages, PR bodies, ticket drift, and weekly recaps.",
+      "category": "productivity"
+    },
+    {
+      "name": "concept-docs",
+      "source": "./skills/knowledge-base/concept-docs",
+      "description": "Confluence concept clusters, and the pages inside them.",
+      "category": "productivity"
+    },
+    {
+      "name": "prose",
+      "source": "./skills/prose",
+      "description": "Copyedit prose to a plain register.",
+      "category": "productivity"
+    },
+    {
+      "name": "codebase",
+      "source": "./skills/codebase",
+      "description": "Audit a codebase for comments that earn no reader.",
+      "category": "productivity"
+    }
+  ]
+}

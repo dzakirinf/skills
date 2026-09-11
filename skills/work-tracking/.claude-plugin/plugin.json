@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "author": {
+    "name": "Dzakirin Asyraff",
+    "url": "https://github.com/dzakirinf"
+  },
+  "repository": "https://github.com/dzakirinf/skills",
+  "license": "MIT",
+  "name": "work-tracking",
+  "description": "Commit messages, PR bodies, ticket drift, and weekly recaps.",
+  "skills": [
+    "./ticket-drift",
+    "./weekly-recap",
+    "./writing-commit-messages",
+    "./writing-pr-bodies"
+  ]
+}

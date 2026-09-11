@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "author": {
+    "name": "Dzakirin Asyraff",
+    "url": "https://github.com/dzakirinf"
+  },
+  "repository": "https://github.com/dzakirinf/skills",
+  "license": "MIT",
+  "name": "concept-docs",
+  "description": "Confluence concept clusters, and the pages inside them.",
+  "skills": [
+    "./creating-confluence-clusters",
+    "./revising-confluence-clusters",
+    "./writing-confluence-pages"
+  ]
+}

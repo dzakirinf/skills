@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "author": {
+    "name": "Dzakirin Asyraff",
+    "url": "https://github.com/dzakirinf"
+  },
+  "repository": "https://github.com/dzakirinf/skills",
+  "license": "MIT",
+  "name": "codebase",
+  "description": "Audit a codebase for comments that earn no reader.",
+  "skills": [
+    "./audit-comments"
+  ]
+}
