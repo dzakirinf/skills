@@ -8,6 +8,34 @@ drives, so there's somewhere obvious to put the next one.
 
 ## Installing
 
+### Claude Code
+
+The repo is its own plugin marketplace. Add it once:
+
+```
+/plugin marketplace add dzakirinf/skills
+```
+
+Then install a group:
+
+```
+/plugin install work-tracking@dzakirinf
+```
+
+| Plugin | Covers |
+| --- | --- |
+| `work-tracking@dzakirinf` | `writing-commit-messages`, `writing-pr-bodies`, `ticket-drift`, `weekly-recap` |
+| `concept-docs@dzakirinf` | `creating-confluence-clusters`, `revising-confluence-clusters`, `writing-confluence-pages` |
+| `prose@dzakirinf` | `copyedit` |
+| `codebase@dzakirinf` | `audit-comments` |
+| `dzakirin-skills@dzakirinf` | The other four as dependencies, so one install takes everything. |
+
+`/plugin` on its own opens a menu for browsing and toggling what you've got. The same
+two commands work from a shell as `claude plugin marketplace add dzakirinf/skills` and
+`claude plugin install work-tracking@dzakirinf`.
+
+### Everything else
+
 ```bash
 npx skills add dzakirinf/skills
 ```
