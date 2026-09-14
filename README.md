@@ -19,7 +19,7 @@ The repo is its own plugin marketplace. Add it once:
 Then install a group:
 
 ```
-/plugin install work-tracking@dzakirinf
+/plugin install prose@dzakirinf
 ```
 
 | Plugin | Covers |
@@ -32,7 +32,7 @@ Then install a group:
 
 `/plugin` on its own opens a menu for browsing and toggling installed plugins. The same
 two commands work from a shell as `claude plugin marketplace add dzakirinf/skills` and
-`claude plugin install work-tracking@dzakirinf`.
+`claude plugin install prose@dzakirinf`.
 
 ### Everything else
 
