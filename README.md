@@ -56,10 +56,14 @@ only look for skills at startup.
 | --- | --- | --- |
 | [`audit-comments`](skills/codebase/audit-comments/) | Finds the comments that tell a reader nothing the code already does, and reports them for removal. | Nothing |
 | [`concept-docs`](skills/knowledge-base/concept-docs/) | Authors and maintains Confluence documentation clusters. Three skills; take all three or none. | Atlassian MCP server |
+| [`copyedit`](skills/prose/copyedit/) | Rewrites prose to a plain register: strips AI tells, decoration and stiffness, and moves the point to the front. | Nothing |
 | [`ticket-drift`](skills/work-tracking/ticket-drift/) | Finds the backlog tickets that finished work invalidated, and comments on each. | [`acli`](https://developer.atlassian.com/cloud/acli/) |
 | [`weekly-recap`](skills/work-tracking/weekly-recap/) | Rebuilds last week from GitHub into a dated file, facts in tables and reasoning in prose. | [`gh`](https://cli.github.com/) |
+| [`writing-commit-messages`](skills/work-tracking/writing-commit-messages/) | Writes a commit message to a fixed standard: an imperative subject naming the edit, a body only where a constraint demands one. | Nothing |
+| [`writing-pr-bodies`](skills/work-tracking/writing-pr-bodies/) | Writes a PR title and body to a fixed standard: a ticket-keyed title, then diagrams, code and tables connected by bullets. | [`gh`](https://cli.github.com/) |
 
-Each has its own README covering what it writes and what it leaves alone.
+Where a skill has its own README, it covers what the skill writes and what it
+leaves alone.
 
 ## Sanitized identifiers
 
