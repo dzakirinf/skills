@@ -23,7 +23,7 @@ Check **drift** in the same pass: every surviving claim that names a path, comma
 
 ## Information rule
 
-Of each sentence: **what does a reader lose if this goes?** The fact, the path, the command, the flag, the reason the thing is this way, the constraint that bites when ignored, and a unit, bound, or default all stay. Commentary on the fact just stated and reassurance that a mistake is harmless both go.
+Of each sentence: **what does a reader lose if this goes?** The fact, the path, the command, the flag, the reason the thing is this way, the constraint that bites when ignored, and a unit, bound, or default all stay. A number the reader derives by reading the next few lines is not one of these. Commentary on the fact just stated and reassurance that a mistake is harmless both go.
 
 Every claim in the source survives the rewrite, with one exception. Where stripping clank leaves a sentence saying nothing, or leaves it restating what the surrounding text or a symbol name already says, cut it instead of rewording it.
 
@@ -42,7 +42,7 @@ Two greps, answering to different bars.
 **Hints**, where a hit is a sentence to read, not a verdict:
 
 ```
-\bmeans\b|\bwould mean\b|\balone\b|\bactually\b|\bdeliberately\b|\bon purpose\b|\bsimply\b|\bjust\b
+\bmeans\b|\bwould mean\b|\balone\b|\bactually\b|\bdeliberately\b|\bon purpose\b|\bsimply\b|\bjust\b|\bboth\b|\b(two|three|four|five|six|seven|eight|nine|ten|twelve|twenty)\b
 ```
 
 Ordinary sentences trip the second one. "Leave the others alone" is not the intensifier "alone".
@@ -79,8 +79,11 @@ Titles, headings, eyebrows, section names, and labels name the thing in precise 
 | The Magic Behind Caching | How the cache resolves a key |
 | Setup, Speedrun Edition | Quick setup |
 | Auth Stuff | Authentication |
+| Two exclusions, both owned by DEVOPS-791 | Exclusions owned by DEVOPS-791 |
 
 A heading followed by a one-line paragraph restating the heading is a warm-up. Delete the line and start on the content.
+
+A heading or lead-in that counts what follows ("returns twenty lines", "both owned by", "the four refs above") makes the reader verify a number instead of reading the content. Drop the count where the set is printed right below it, and keep it where the body never shows the set.
 
 ## Tells
 
@@ -106,7 +109,7 @@ A heading followed by a one-line paragraph restating the heading is a warm-up. D
 
 **Chatbot residue.** I hope this helps, Certainly, Great question, You're absolutely right, Would you like me to, Want me to, let me know, here is a. Sycophancy in any form.
 
-**Signposting.** let's dive in, let's explore, let's break this down, here's what you need to know, without further ado, now let's look at, and enumerating announcements ("Two things:"). Do the thing instead of announcing it.
+**Signposting.** let's dive in, let's explore, let's break this down, here's what you need to know, without further ado, now let's look at. Do the thing instead of announcing it.
 
 **Dashes.** No em dash or en dash. Replace each with a period, a comma, a colon, or parentheses, or restructure the sentence, and catch spaced dashes and double hyphens used the same way.
 
