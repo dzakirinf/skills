@@ -7,8 +7,10 @@
   "repository": "https://github.com/dzakirinf/skills",
   "license": "MIT",
   "name": "codebase",
-  "description": "Audit a codebase for comments that earn no reader.",
+  "description": "Audit what a codebase ships: its comments, its tests, and the code inside an implementation plan.",
   "skills": [
-    "./audit-comments"
+    "./audit-comments",
+    "./audit-tests",
+    "./polish-plan"
   ]
 }
