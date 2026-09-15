@@ -27,7 +27,7 @@ Then install a group:
 | `work-tracking@dzakirinf` | `writing-commit-messages`, `writing-pr-bodies`, `ticket-drift`, `weekly-recap` |
 | `concept-docs@dzakirinf` | `creating-confluence-clusters`, `revising-confluence-clusters`, `writing-confluence-pages` |
 | `prose@dzakirinf` | `copyedit` |
-| `codebase@dzakirinf` | `audit-comments` |
+| `codebase@dzakirinf` | `audit-comments`, `audit-tests`, `polish-plan` |
 | `dzakirin-skills@dzakirinf` | The other four as dependencies, so one install takes everything. |
 
 `/plugin` on its own opens a menu for browsing and toggling installed plugins. The same
@@ -54,9 +54,11 @@ only look for skills at startup.
 
 | Skill | | Needs |
 | --- | --- | --- |
-| [`audit-comments`](skills/codebase/audit-comments/) | Finds the comments that tell a reader nothing the code already does, and reports them for removal. | Nothing |
+| [`audit-comments`](skills/codebase/audit-comments/) | Finds the comments that tell a reader nothing the code already does, reports them for removal, and trims the padding off the ones that stay. | Nothing |
+| [`audit-tests`](skills/codebase/audit-tests/) | Finds the tests that cannot fail, and the assertions that pass for the wrong reason, and names the contract each should pin instead. | Nothing |
 | [`concept-docs`](skills/knowledge-base/concept-docs/) | Authors and maintains Confluence documentation clusters. Three skills; take all three or none. | Atlassian MCP server |
 | [`copyedit`](skills/prose/copyedit/) | Rewrites prose to a plain register: strips AI tells, decoration and stiffness, and moves the point to the front. | Nothing |
+| [`polish-plan`](skills/codebase/polish-plan/) | Audits the code inside an implementation plan before anyone types it into the repo, fanning `audit-comments` and `audit-tests` out across the plan's fences. | `audit-comments`, `audit-tests` |
 | [`ticket-drift`](skills/work-tracking/ticket-drift/) | Finds the backlog tickets that finished work invalidated, and comments on each. | [`acli`](https://developer.atlassian.com/cloud/acli/) |
 | [`weekly-recap`](skills/work-tracking/weekly-recap/) | Rebuilds last week from GitHub into a dated file, facts in tables and reasoning in prose. | [`gh`](https://cli.github.com/) |
 | [`writing-commit-messages`](skills/work-tracking/writing-commit-messages/) | Writes a commit message to a fixed standard: an imperative subject naming the edit, a body only where a constraint demands one. | Nothing |
